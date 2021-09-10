@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+body{
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+  div#waku{
+  width: 398px;  /*2px減らしたのはボーダーで両サイド2px使ったから*/
+  height: 680px;
+  margin: 0 200px 0 200px;
+  background-color: #fff;
+  overflow: scroll;
+  float: left;
+  border: 1px #000 solid;
+}
+/*::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px #777;
+}
+::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 10px;
+  box-shadow: none;
+}*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+      table{
+        border-collapse: separate;
+        border: 1px #000;
+        border-spacing: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        margin-bottom: 20px;
+      }
+   th{
+        border: 1px #000 solid;
+   }
+    td{
+        border: 1px #000 solid;
+   }
+
+
+.img1{
+  width: 170px;
+}
+
+table#moderu{
+        border-collapse: separate;
+        border: 1px #000;
+        border-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+}
+
+.img2{
+  width: 180px;
+}
+
+footer{
+  position: fixed;
+  left: auto;
+  top: 700px;
+  z-index: 90;
+}
+
+#zentai{
+  width: 400px;
+  height: 1000px;
+}
+.manyu{
+  position: fixed;
+  z-index: 90;
+  top: 680px;
+  left: auto;
+  bottom: 0px;
+  width: 400px;
+  background-color: #ddd;
+  color: #fff;
+  height: 70px;
+  margin-left: 200px;
+}
+
+nav{}
+  nav ul{
+    text-align: center;
+  }
+    nav ul li{
+      display: inline-block;
+      width: auto;
+      margin: 10px 20px;
+
+    }
+      nav ul li a{
+      }
+
+.aikon{
+  width: 50px;
+
+}
+
+div#kensaku{
+  padding: 80px 120px;
+}
+
+h1.rireki{
+  font-size: 4rem;
+  padding-left: 35px;
+}
+
+#tuuti{
+  width: 380px;
+  font-size: 2rem;
+}
+
+.more{
+  display: block;
+  float: right;
+  height: 50px;
+  width: 380px;
+  /*padding: auto;*/
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.more:hover{
+  background-color: #ddd;
+}
+
+p{
+  padding: 5px 0 5px 10px;
+}
+
+h1.tuuti{
+  float: left;
+  font-size: 2rem;
+  margin: 20px 0 0 150px;
+}
+
+#me{
+  width: 300px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#me td{
+  padding: 10px;
+}
+
+#me a{
+  text-decoration: none;
+  color: #000;
+}
+
+#me a:hover{
+  background-color: #ddd;
+}
+
+h1.icon{
+  float: left;
+  padding-left: 35px;
+  font-size: 5rem;
+}
+
+p.follow{
+  padding-left: 200px;
+}
+
+.meaikon{
+  width: 30px;
+}
+
+h1.me{
+  font-size: 1.5rem;
+}
+
+ul.me{
+  margin: 10px 0 20px 0;
+}
+
+a.shinsaku{
+  text-decoration: none;
+}
+
+h1.shinsaku{
+  font-size: 2rem;
+  color: #000;
+  margin: 10px 0 0 20px;
+}
+
+a.shinsaku1{
+  display: block;
+  float: right;
+  height: 50px;
+  width: 380px;
+  /*padding: auto;*/
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #000;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.shinsaku1:hover{
+  background-color: #ddd;
+}
+
+h1.shinsaku1{
+  font-size: 2rem;
+}
+
+img.shinsaku1{
+  margin-left: 50px;
+}
+
+a.rankingu{
+  text-decoration: none;
+}
+
+h1.rankingu{
+  font-size: 2rem;
+  color: #000;
+  margin: 10px 0 0 20px;
+}
+
+a.osusume{
+  text-decoration: none;
+}
+
+h1.osusume{
+  font-size: 2rem;
+  color: #000;
+  margin: 10px 0 0 20px;
+}
+
+
+h1.icon_tanin{
+  float: left;
+  padding: 20px 0 0 35px;
+  font-size: 5rem;
+}
+
+p.follow{
+  padding-top: 20px;
+}
+
+h1.tanin{
+  font-size: 1.5rem;
+  padding: 10px 0 0 20px;
+}
+
+a.follow{
+  text-decoration: none;
+  color: #000;
+}
+
+
+div.settei{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+
+}
+
+div.kagiaka{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+h1.settei{
+  float: left;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+a h1.settei:hover{
+  background-color: #ddd;
+}
+
